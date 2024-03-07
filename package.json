@@ -1,0 +1,24 @@
+{
+  "name": "rps-webpack",
+  "version": "1.0.0",
+  "description": "A simple Rock Paper Scissors app through webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDL001J/RPS-Webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDL001J/RPS-Webpack/issues"
+  },
+  "homepage": "https://github.com/JDL001J/RPS-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
