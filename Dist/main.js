@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector("#btn-rock").addEventListener("click",(()=>{})),document.querySelector("#btn-paper").addEventListener("click",(()=>{})),document.querySelector("#btn-scissors").addEventListener("click",(()=>{}))})();

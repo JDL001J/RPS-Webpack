@@ -1,5 +1,3 @@
-import { comChoice } from "./com_choice";
-import { playerChoice } from "./player_choice";
 
 
 const btnRock = document.querySelector('#btn-rock');
