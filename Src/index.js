@@ -1,18 +1,33 @@
-import { comChoice } from "./com_choice";
-import { playerChoice } from "./player_choice";
 
+import { comChoice } from "./com_choice";
+
+import { startRound } from "./start_round";
+import { winner } from "./winner";
 
 const btnRock = document.querySelector('#btn-rock');
 btnRock.addEventListener('click', ()=>{
-    playerChoice("rock")
+    
+   
+    startRound('rock');
+    winner()
+    
+   
 });
 
 const btnPaper = document.querySelector('#btn-paper');
 btnPaper.addEventListener('click', ()=>{
-    playerChoice("paper")
+    
+  
+     startRound("paper");
+     winner()
 });
 
 const btnScissors = document.querySelector('#btn-scissors');
 btnScissors.addEventListener('click', ()=>{
-    playerChoice("scissors")
-})
+   
+   
+    startRound('scissors');
+    winner()
+});
+
+
